@@ -341,3 +341,42 @@ a:focus {
 .footer-logo {
   padding-bottom: 10px;
 }
+
+@media (max-width: 400px) {
+  .home .block h1 {
+    font-size: 38px;
+    line-height: 40px;
+  }
+  .home {
+    padding: 151px 0 151px 0;
+  }
+  .btn {
+    font-size: 0.8125rem;
+    padding: 1rem 1.5rem;
+  }
+  .btn.btn-icon i {
+    font-size: 10px;
+  }
+  .content-title {
+    font-size: 28px;
+    line-height: 46px;
+  }
+  .bg-about {
+    display: none;
+  }
+  .carousel-mobile .carousel-inner .carousel-item .col-sm-3{
+    width: 90px;
+  }
+  .inte .carousel-inner .carousel-item .col-sm-3{
+    width: 110px;
+  }
+  .inte .carousel-inner .carousel-item p{
+    font-size: 0.8rem;
+    line-height: 15px;
+    margin-top: 5px;
+  }
+  .inte .carousel-inner .carousel-item h4{
+    font-size: 0.8rem;
+    line-height: 15px;
+  }
+}
